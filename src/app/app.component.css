@@ -1,0 +1,37 @@
+
+.navbar{
+    margin: auto;
+    width: 90%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content:space-around;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+li a:hover{
+    cursor: pointer;
+    color: saddlebrown;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    color: bisque;
+}
+li[role="button"]{
+    color:white;
+    cursor: pointer;
+}
+li[role="button"]:hover{
+    cursor: pointer;
+    color: saddlebrown;
+}

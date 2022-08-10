@@ -1,0 +1,39 @@
+p{
+    color: aliceblue;
+}
+.a-link{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 600px;
+
+}
+.a-link:hover{
+    color:black;
+    background-color: white;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.box1 {
+    background-color: rgba(0,0,0,0.2);
+    padding: 50px;
+    margin: 10px;
+    width: auto;
+
+}
+.box>.box1 {
+    flex: 1 1 20%;
+  }
+.box1:hover{
+    transform: scale(1.2);
+    
+}

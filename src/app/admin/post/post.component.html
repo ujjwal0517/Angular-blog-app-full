@@ -1,0 +1,13 @@
+<div>
+    <form  [formGroup]="postForm">
+            <h3 style="text-align: center; font-weight: bold; color:aliceblue">Create Post</h3>
+      <label for="fname">Title</label>
+      
+      <input type="text" id="fname" formControlName="title" placeholder="Enter Your Title">
+    
+      <label for="lname">Content</label>
+      
+      <textarea  cols="30" rows="10" formControlName="content"></textarea>
+      <input type="submit" value="Post">
+    </form>
+  </div>
